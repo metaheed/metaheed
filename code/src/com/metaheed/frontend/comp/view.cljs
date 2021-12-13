@@ -74,20 +74,13 @@
                        :spacing         1}
 
           [:> mui/Grid {:item true :xs 5}
-           [:> mui/Typography {:variant "h6" :component "h2"} "Metadata driven pipeline automation"]
+           [:> mui/Typography {:variant "h6" :component "h2"} "Kolle - Metadata driven data pipeline automation"]
            [:> mui/Link {:href   "https://kolle.metaheed.com"
                          :target "_blank"
                          }
-            "Try Kolle"
-            ]
-           ]
+            "Try Kolle"]]
           #_[:> mui/Grid {:item true :xs 12}
              [:> mui/Typography {:variant "h6" :component "h2"} "Metadata driven data quality profiling"]]
-          #_[:> mui/Grid {:item true :xs 12}
-             [:> mui/Typography {:variant "h6" :component "h2"} "Metadata driven data hub"]]
-          #_[:> mui/Grid {:item true :xs 7}
-
-           ]
           [:> mui/Grid {:item true}]]]
         [:> mui/Grid {:item true :xs 3}
          [cr/copyright-ui]]]])
