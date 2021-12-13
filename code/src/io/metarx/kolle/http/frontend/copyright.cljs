@@ -11,7 +11,7 @@
           :on-click  (fn [e] (.preventDefault e))}
          "Copyright @2022 Metaheed "]
         ]
-       [:> mui/Grid {:item true :xs 10}
+       #_[:> mui/Grid {:item true :xs 10}
         [:> mui/Link
          {:href      "#"
           :underline "hover"
