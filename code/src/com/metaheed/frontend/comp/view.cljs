@@ -74,7 +74,7 @@
                        :spacing         1}
 
           [:> mui/Grid {:item true :xs 5}
-           [:> mui/Typography {:variant "h6" :component "h2"} "Kolle - Metadata driven data pipeline automation"]
+           [:> mui/Typography {:variant "h6" :component "h2"} "Kolle - Zero code based metadata driven data pipeline automation"]
            [:> mui/Link {:href   "https://kolle.metaheed.com"
                          :target "_blank"
                          }
